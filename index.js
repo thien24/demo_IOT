@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 const app = express();
 
-const MONGODB_URL = process.env.MONGODB_URL || 'mongodb+srv://vthien562004:vanthien562004@cluster0.cepmq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; 
+const MONGODB_URL = process.env.MONGODB_URL || 'mongodb+srv://vanthien562004:vanthien562004@cluster0.pizki.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'; 
 
 
 //mongodb+srv://vanthien562004:vanthien562004@cluster0.pizki.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
